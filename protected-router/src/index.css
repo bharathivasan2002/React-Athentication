@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.App{
+  text-align: center;
+  padding: 100px;
+}
+
+.navbar-container{
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  background-color: teal;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar a{
+  color: white;
+  margin: 0px 30px;
+  text-decoration: none;
+  font-weight: 100;
+}
+.navbar a.active{
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.home{
+  text-align:justify;
+}
+.home h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+.home h4{
+  font-weight: 400;
+}
+.about{
+  text-align:justify;
+}
+.about h1{
+  font-size: 40px;
+  font-weight: 400;
+}
+.about h4{
+  font-weight: 400;
+}
+.logoutbtn{
+  padding: 7px;
+  margin-right:20px ;
+  background-color:transparent;
+  border: none;
+  border: 1px solid white;
+  color: gainsboro;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+.login {
+  text-align: justify;
+}
+.login h2{
+  font-size: 35px;
+  font-weight: 400;
+}
+.login input{
+  padding: 10px; 
+  margin-right: 20px;
+  border: none;
+  border: 2px solid teal;
+  width: 300px;
+  outline-color:aquamarine ;
+  background-color: transparent;
+  color: teal;
+  letter-spacing: 3px;
+}
+.login button{
+  padding: 10px 25px; 
+  border: none;
+  border: 2px solid teal;
+  background-color: transparent;
+  color: teal;
+  letter-spacing: 2px;
+}
